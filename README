@@ -1,0 +1,39 @@
+
+README (PyXicht)
+
+    PyXicht is a simplified version of the visual CPU load monitoring tool
+    Xicht. See
+
+        https://github.com/urbanware-org/xicht
+
+    for details about it.
+
+    The original Xicht project is written in C# and runs on Linux (and other
+    platforms aside Windows) using the Mono runtime. However, in the past a
+    memory leak inside external libraries used by Mono led to steadily
+    increasing memory consumption making the usage of Xicht more or less
+    inconvenient on other platforms than Windows.
+
+    In order to get around this problem until it was solved, the PyXicht
+    project was created. As the name suggests, it is written in Python and it
+    takes advantage of the Qt framework to display the graphics.
+
+    As mentioned above, PyXicht is quite limited as the window size is fixed,
+    there is no right-click menu and also no tray icon available. In short, it
+    does not really have any options except closing it once it is running.
+
+    Like the Xicht project, PyXicht comes with some great high resolution face
+    images. Special thanks to Reinchard for designing and kindly providing
+    them. See
+
+        https://github.com/urbanware-org/xicht#graphics
+
+    for an overview of the graphics.
+
+    PyXicht is and was not intended to be or become an actual alternative to
+    Xicht. It was written in a short time and the code definitely needs some
+    improvement. Furthermore, it will remain in the state it is now, so there
+    will be no enhancements, improvements or whatsoever.
+
+    Feel free to fork.
+
